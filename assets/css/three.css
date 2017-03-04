@@ -1,0 +1,9 @@
+.button {
+    background-color: skyblue; /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    align-self: center;
+}
+

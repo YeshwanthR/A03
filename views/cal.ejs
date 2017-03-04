@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html>
+<head>
+ 
+<title>Manga Books Order</title>
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href=""css/main.css>
+        <link rel="stylesheet" href="css/second.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+ </head>
+
+ <body>
+
+     <div>
+    
+
+  
+    <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Manga Books</h1>
+                <nav>
+                    <ul>
+
+                     <li><a style="text-decoration:2px 2px 2px" href="/" > Home</a>
+                    </li>
+                    <li><a style="text-decoration:2px 2px 2px" href="cal" >Order</a>
+                    </li>
+                    <li><a style="text-decoration:2px 2px 2px #aaa" href="contact"> Contact</a>
+                    <li><a style="text-decoration:2px 2px 2px #aaa" href="gbindex"> GuestBook</a>
+                        <ul>
+                                
+                </nav>
+            </header>
+        </div>
+
+<div  ><img src="images/one.jpg" id="text" alt="Cinque Terre" width="50" hight="50"></div>
+
+<div class="class " id="back">
+
+ <form target="_blank" action="js/cal.js" >
+                <fieldset>
+                    <legend style="color:blue"><b>Make your Order</b>
+                    </legend>
+                    <h4> Manga</h4>
+  <input type="radio" name="browser"  value=550 id="id1" >Naruto
+  <input type="radio" name="browser"  value=600 id="id2">one Piece
+  <input type="radio" name="browser"  value=500 id="id3">Bleach
+  <input type="radio" name="browser"  value=300 id="id4">One Punch Man
+  
+
+<br>
+
+
+<form action="" id="id" action="js/cal.js">
+    
+ <br>
+ <br>
+<h3>select country to be shiped to <mark>(tax depends on country)</mark></h3>
+    <label for="country">Country</label>
+    <select  name="Country" id="td"><br>
+    <option selected>select</option>
+      <option name="name" value="20" >japan </option>
+      <option name="name" value="30"  >China </option>
+      <option name="name"value="10" >india </option></select>
+    <br><br>
+
+    <h3>Address</h3>
+    <input type="text"  name="address">
+
+
+<br>
+ <br>
+<input type="button" class="button" value="Buy" onclick="myFunction()">
+<br>
+<p>Total Cost: <span id="result">
+</span></p>  
+    </form>
+  
+  
+ 
+  </form>
+ <br>
+ <a href="/unittest">Click for Unit Test</a>
+<br>
+<h4 id="p"><h4>
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/cal.js" > </script>
+
+    </body>
+    </html>

@@ -1,0 +1,32 @@
+.class {
+    border-radius: 5px;
+    
+    padding: 80px;
+    font-size: 30px;
+    text-align: center;
+    
+
+}
+
+#back{
+     background-color:skyblue;
+ 
+}
+
+
+
+#text{
+display: block;
+    margin: auto;
+    width: 20%;
+ background-color:skyblue;
+}
+
+.button {
+    background-color: Green;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    align-self: center;
+}

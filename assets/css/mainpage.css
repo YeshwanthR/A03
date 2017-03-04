@@ -1,0 +1,15 @@
+* {
+    background-image: 'images/n.jpg';
+    background-repeat: no-repeat;
+    opacity:50%;
+
+ background-size:cover;
+}
+
+.circle {
+
+    float: right;
+    border-radius: 100%;
+
+}
+.vid1{margin-left: 16cm;}
